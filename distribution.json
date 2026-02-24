@@ -1008,14 +1008,14 @@
           }
         },
         {
-          "id": "Bontiful_Crops_v2.2 [1.19-1.21.9].zip",
-          "name": "Bontiful_Crops_v2.2 [1.19-1.21.9].zip",
+          "id": "Bontiful_Crops_v2.2.zip",
+          "name": "Bontiful_Crops_v2.2.zip",
           "type": "File",
           "artifact": {
             "size": 174357,
-            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/files/resourcepacks/Bontiful_Crops_v2.2%20[1.19-1.21.9].zip",
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/files/resourcepacks/Bontiful_Crops_v2.2.zip",
             "MD5": "d63c958036d37fd2f75fb2c7a3e254fe",
-            "path": "resourcepacks/Bontiful_Crops_v2.2 [1.19-1.21.9].zip"
+            "path": "resourcepacks/Bontiful_Crops_v2.2.zip"
           }
         },
         {
