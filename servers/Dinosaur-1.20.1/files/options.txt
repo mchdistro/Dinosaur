@@ -1,0 +1,12 @@
+version:3465
+resourcePacks:["vanilla","mod_resources","builtin/builtin_resource_packs/legacy_dead_king_resource_pack","file/Bontiful_Crops_v2.2.zip","file/Spartan Weaponry 한글번역팩.zip"]
+incompatibleResourcePacks:["file/Bontiful_Crops_v2.2.zip"]
+lang:ko_kr
+narrator:0
+tutorialStep:none
+skipMultiplayerWarning:true
+allowServerListing:true
+onboardAccessibility:true
+key_key.chat:key.keyboard.enter
+soundCategory_master:0.2
+soundCategory_music:0.0

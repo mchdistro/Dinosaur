@@ -1008,6 +1008,16 @@
           }
         },
         {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 462,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/files/options.txt",
+            "path": "options.txt"
+          }
+        },
+        {
           "id": "Bontiful_Crops_v2.2.zip",
           "name": "Bontiful_Crops_v2.2.zip",
           "type": "File",
@@ -1038,6 +1048,17 @@
             "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/files/resourcepacks/Spartan%20Weaponry%20%ED%95%9C%EA%B8%80%EB%B2%88%EC%97%AD%ED%8C%A9.zip",
             "MD5": "f035f77e5f05e7554718716093a3937d",
             "path": "resourcepacks/Spartan Weaponry 한글번역팩.zip"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 95,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/files/servers.dat",
+            "MD5": "4d662c8ab876f73e4b49e1d5d32e6ae9",
+            "path": "servers.dat"
           }
         },
         {
