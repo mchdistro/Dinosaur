@@ -1,0 +1,1079 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "Dinosaur-1.20.1",
+      "name": "곤룡이다",
+      "description": "Minecraft 1.20.1 (Forge v47.4.16)",
+      "icon": "https://github.com/mchdistro/Dinosaur/raw/main/server-icon.png",
+      "version": "1.0.0",
+      "address": "illusionwave3.softether.net:25564",
+      "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "javaOptions": {
+        "supported": "=>21",
+        "suggestedMajor": 21,
+        "platformOptions": [
+          {
+            "platform": "win32",
+            "architecture": "x64",
+            "distribution": "TEMURIN"
+          }
+        ],
+        "ram": {
+          "minimum": 4096,
+          "recommended": 8192
+        }
+      },
+      "modules": [
+        {
+          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.4.16",
+          "name": "Minecraft Forge (lowcodelanguage)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 7393,
+            "MD5": "eef5a959280fbbbfcaa20e71a1f21f47",
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.4.16/lowcodelanguage-1.20.1-47.4.16.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-47.4.16",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 16559,
+                "MD5": "0209821dfee7da8866d879bae8a48c45",
+                "url": "https://github.com/mchdistro/Dinosaur/raw/main/repo/versions/1.20.1-forge-47.4.16/1.20.1-forge-47.4.16.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlcore:1.20.1-47.4.16",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 118907,
+                "MD5": "a3c587d8de59520103fffa5d389a37e0",
+                "url": "https://github.com/mchdistro/Dinosaur/raw/main/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.4.16/fmlcore-1.20.1-47.4.16.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.4.16",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 16849,
+                "MD5": "8621fbf34f936765341b673b6cd766d4",
+                "url": "https://github.com/mchdistro/Dinosaur/raw/main/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.4.16/javafmllanguage-1.20.1-47.4.16.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.20.1-47.4.16",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4993,
+                "MD5": "04824559b568359bc1f13e7747c92102",
+                "url": "https://github.com/mchdistro/Dinosaur/raw/main/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.4.16/mclanguage-1.20.1-47.4.16.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.4.16:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 2507137,
+                "MD5": "4f50127e5e1c8a73a48efc1564cf0998",
+                "url": "https://github.com/mchdistro/Dinosaur/raw/main/repo/lib/net/minecraftforge/forge/1.20.1-47.4.16/forge-1.20.1-47.4.16-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.4.16:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 4848917,
+                "MD5": "a653895344f94e59c864480cda1031d1",
+                "url": "https://github.com/mchdistro/Dinosaur/raw/main/repo/lib/net/minecraftforge/forge/1.20.1-47.4.16/forge-1.20.1-47.4.16-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 18842082,
+                "MD5": "8bfacfba4f54cda741019756165c5ecf",
+                "url": "https://github.com/mchdistro/Dinosaur/raw/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 12592249,
+                "MD5": "28edebec7b5a007bc9961ee9bab4d764",
+                "url": "https://github.com/mchdistro/Dinosaur/raw/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 10436626,
+                "MD5": "da6bb1a2c23108392fd6c103da40867c",
+                "url": "https://github.com/mchdistro/Dinosaur/raw/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:2.1.10",
+              "name": "Minecraft Forge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 88749,
+                "MD5": "d9ff48d1c68388270388b803fa42611e",
+                "url": "https://github.com/mchdistro/Dinosaur/raw/main/repo/lib/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.8",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126113,
+                "MD5": "f5adf3bfc54fb3d2cd8e3a1f275084bc",
+                "url": "https://github.com/mchdistro/Dinosaur/raw/main/repo/lib/org/ow2/asm/asm/9.8/asm-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.8",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73498,
+                "MD5": "c8c3d9ccf240144e74d94ff658b024c9",
+                "url": "https://github.com/mchdistro/Dinosaur/raw/main/repo/lib/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.8",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51934,
+                "MD5": "4ab1aaec43c77a2d9b56e6d6d496f705",
+                "url": "https://github.com/mchdistro/Dinosaur/raw/main/repo/lib/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.8",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94559,
+                "MD5": "62498ef324bdab15f407d703f7d78d19",
+                "url": "https://github.com/mchdistro/Dinosaur/raw/main/repo/lib/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.8",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35151,
+                "MD5": "3d63508405f5610fc2ea673ff5471553",
+                "url": "https://github.com/mchdistro/Dinosaur/raw/main/repo/lib/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "https://github.com/mchdistro/Dinosaur/raw/main/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "https://github.com/mchdistro/Dinosaur/raw/main/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:6.2.33",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 64014,
+                "MD5": "0b419ea48f46de30ee4e6241e4fdf9d4",
+                "url": "https://github.com/mchdistro/Dinosaur/raw/main/repo/lib/net/minecraftforge/eventbus/6.2.33/eventbus-6.2.33.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:7.0.1",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 29831,
+                "MD5": "bd34d20287dc95201fe9475a8bbc2540",
+                "url": "https://github.com/mchdistro/Dinosaur/raw/main/repo/lib/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.2.4",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 31872,
+                "MD5": "5295505357ba9b98450c5e3121f82191",
+                "url": "https://github.com/mchdistro/Dinosaur/raw/main/repo/lib/net/minecraftforge/coremods/5.2.4/coremods-5.2.4.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:10.0.9",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 130343,
+                "MD5": "07507d18d72661f8ae6a5da75bbf35be",
+                "url": "https://github.com/mchdistro/Dinosaur/raw/main/repo/lib/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://github.com/mchdistro/Dinosaur/raw/main/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:mergetool:1.1.5:api",
+              "name": "Minecraft Forge (mergetool)",
+              "type": "Library",
+              "artifact": {
+                "size": 2572,
+                "MD5": "8df9c5bf87d004ddb884eca99bc2a4b1",
+                "url": "https://github.com/mchdistro/Dinosaur/raw/main/repo/lib/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "https://github.com/mchdistro/Dinosaur/raw/main/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "https://github.com/mchdistro/Dinosaur/raw/main/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.8.5",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 58077,
+                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                "url": "https://github.com/mchdistro/Dinosaur/raw/main/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.6.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 18281,
+                "MD5": "d4a375bf382f726cf1a650ccb38a736c",
+                "url": "https://github.com/mchdistro/Dinosaur/raw/main/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://github.com/mchdistro/Dinosaur/raw/main/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "https://github.com/mchdistro/Dinosaur/raw/main/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "https://github.com/mchdistro/Dinosaur/raw/main/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "https://github.com/mchdistro/Dinosaur/raw/main/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.4",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167292,
+                "MD5": "a9b3360e6a486cf62c1952c7816b7d97",
+                "url": "https://github.com/mchdistro/Dinosaur/raw/main/repo/lib/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.3.19",
+              "name": "Minecraft Forge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17374,
+                "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
+                "url": "https://github.com/mchdistro/Dinosaur/raw/main/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.3.19",
+              "name": "Minecraft Forge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15895,
+                "MD5": "9633546d299d4282ca68d10582be1c8f",
+                "url": "https://github.com/mchdistro/Dinosaur/raw/main/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.1.2",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 8284,
+                "MD5": "48f5255aa337344c467c0150d347813d",
+                "url": "https://github.com/mchdistro/Dinosaur/raw/main/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
+              "name": "Minecraft Forge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 32195,
+                "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
+                "url": "https://github.com/mchdistro/Dinosaur/raw/main/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.20.1-47.4.16",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 269260,
+                "MD5": "5f1fcafc3cd40bbac360316491d8acc7",
+                "url": "https://github.com/mchdistro/Dinosaur/raw/main/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.4.16/fmlloader-1.20.1-47.4.16.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.4.16",
+              "name": "Minecraft Forge (fmlearlydisplay)",
+              "type": "Library",
+              "artifact": {
+                "size": 170511,
+                "MD5": "b41388809b3ecd36f3f607116bf6d6ec",
+                "url": "https://github.com/mchdistro/Dinosaur/raw/main/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.16/fmlearlydisplay-1.20.1-47.4.16.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "squeek.appleskin:appleskin:2.5.1+mc1.20.1@jar",
+          "name": "AppleSkin",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 47428,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/appleskin-forge-mc1.20.1-2.5.1.jar",
+            "MD5": "dae63cea9c951dda542a4005ceef3953"
+          }
+        },
+        {
+          "id": "dev.architectury:architectury:9.2.14@jar",
+          "name": "Architectury",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 580602,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/architectury-9.2.14-forge.jar",
+            "MD5": "76b40d407b6bf0257dd1dab6d3d395d5"
+          }
+        },
+        {
+          "id": "ru.astemir:astemirlib:1.25@jar",
+          "name": "AstemirLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 370350,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/astemirlib-1.20.1-1.25.jar",
+            "MD5": "8a38c28fda4c0f1eb4ac74cb2851245b"
+          }
+        },
+        {
+          "id": "de.mennomax:astikorcarts:1.1.8@jar",
+          "name": "AstikorCarts Redux",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 231706,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/astikorcarts-1.20.1-1.1.8.jar",
+            "MD5": "0165d0921a96ee41880446af6182fffe"
+          }
+        },
+        {
+          "id": "net.blay09.mods:balm:7.3.37@jar",
+          "name": "Balm",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 590486,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/balm-forge-1.20.1-7.3.37-all.jar",
+            "MD5": "e4d3fb7b0d8e9271aca89f7964367b1a"
+          }
+        },
+        {
+          "id": "net.bettercombat:bettercombat:1.9.0+1.20.1@jar",
+          "name": "Better Combat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1054339,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/bettercombat-forge-1.9.0+1.20.1.jar",
+            "MD5": "b288dabeb411ef564a660a56e60962c6"
+          }
+        },
+        {
+          "id": "com.jtorleonstudios:bettervillage:3.3.1@jar",
+          "name": "Better village",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2612506,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/bettervillage-forge-1.20.1-3.3.1-all.jar",
+            "MD5": "7d46cc7c55571ae66cd40c5dcbc27014"
+          }
+        },
+        {
+          "id": "net.darkhax:bookshelf:20.2.13@jar",
+          "name": "Bookshelf",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 343962,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/Bookshelf-Forge-1.20.1-20.2.13.jar",
+            "MD5": "46c8e7f9bcfa984bd576e448df2beb25"
+          }
+        },
+        {
+          "id": "top.theillusivec4:caelus:3.2.0+1.20.1@jar",
+          "name": "Caelus API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 40125,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/caelus-forge-3.2.0+1.20.1.jar",
+            "MD5": "e37854c44b1849b753afc4a205f31b46"
+          }
+        },
+        {
+          "id": "tschipp.carryon:carryon:2.1.2.7@jar",
+          "name": "Carry On",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 439457,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/carryon-forge-1.20.1-2.1.2.7.jar",
+            "MD5": "8956b37c2ae11cc5522c8404a262c6b7"
+          }
+        },
+        {
+          "id": "dzwdz.chat_heads:chat_heads:0.14.2@jar",
+          "name": "Chat Heads",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 718678,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/chat_heads-0.14.2-forge-1.20.jar",
+            "MD5": "90c7b2c8dd6b9001528c5d741152b784"
+          }
+        },
+        {
+          "id": "com.github.alexthe666:citadel:2.6.2@jar",
+          "name": "Citadel",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3185379,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/citadel-2.6.2-1.20.1.jar",
+            "MD5": "f027b4f6862b99a1e0516353fb3ef0fc"
+          }
+        },
+        {
+          "id": "me.shedaniel.clothconfig:cloth_config:11.1.136@jar",
+          "name": "Cloth Config v10 API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1181413,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/cloth-config-11.1.136-forge.jar",
+            "MD5": "ca5de5acbcb4a30c010aa6953bd7ef53"
+          }
+        },
+        {
+          "id": "com.blamejared:clumps:12.0.0.4@jar",
+          "name": "Clumps",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 20299,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/Clumps-forge-1.20.1-12.0.0.4.jar",
+            "MD5": "c9efc71827df6ab51e8dd0e40c3d4975"
+          }
+        },
+        {
+          "id": "de.maxhenkel:corpse:1.20.1-1.0.23@jar",
+          "name": "Corpse",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 245644,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/corpse-forge-1.20.1-1.0.23.jar",
+            "MD5": "a486f676f5e47e5846e31cb66cb5c16d"
+          }
+        },
+        {
+          "id": "top.theillusivec4:curios:5.14.1+1.20.1@jar",
+          "name": "Curios API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 398066,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/curios-forge-5.14.1+1.20.1.jar",
+            "MD5": "2fdcc97cbc66c4b2492b407c792e7159"
+          }
+        },
+        {
+          "id": "net.aurelj:dungeons_arise:2.1.58-1.20.x@jar",
+          "name": "When Dungeons Arise",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8762342,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/DungeonsArise-1.20.x-2.1.58-release.jar",
+            "MD5": "6ac48d0cf2ce763824f96f6d26963219"
+          }
+        },
+        {
+          "id": "net.aurelj:dungeons_arise_seven_seas:1.0.2@jar",
+          "name": "When Dungeons Arise: Seven Seas",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 248169,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/DungeonsAriseSevenSeas-1.20.x-1.0.2-forge.jar",
+            "MD5": "7438cb3ec55972c670e83effa52f8668"
+          }
+        },
+        {
+          "id": "fuzs.easyshulkerboxes:easyshulkerboxes:8.0.2@jar",
+          "name": "Easy Shulker Boxes",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 581742,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/EasyShulkerBoxes-v8.0.2-1.20.1-Forge.jar",
+            "MD5": "e51ded9f25728d16587084eb7adf9fd0"
+          }
+        },
+        {
+          "id": "samebutdifferent.ecologics:ecologics:2.2.2@jar",
+          "name": "Ecologics",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1809159,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/ecologics-forge-1.20.1-2.2.2.jar",
+            "MD5": "c01743d2beaa3129af16c335a83c877e"
+          }
+        },
+        {
+          "id": "net.darkhax:enchdesc:17.1.20@jar",
+          "name": "EnchantmentDescriptions",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 69480,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/EnchantmentDescriptions-Forge-1.20.1-17.1.20.jar",
+            "MD5": "4e48acec34bc8e63e8a437b6d5d6726e"
+          }
+        },
+        {
+          "id": "vectorwing.farmersdelight:farmersdelight:1.20.1-1.2.9@jar",
+          "name": "Farmer's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2978080,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/FarmersDelight-1.20.1-1.2.9.jar",
+            "MD5": "71e177a98e0e6f399761ad00e978d177"
+          }
+        },
+        {
+          "id": "com.github.teamfossilsarcheology:fossil:9.3.0.2@jar",
+          "name": "Fossils and Archeology: Revival",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 29236393,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/fossil-forge-1.20.1-9.3.0.2.jar",
+            "MD5": "32516215b35e70de75c01f6d70d065a6"
+          }
+        },
+        {
+          "id": "software.bernie.example:geckolib:4.8.2@jar",
+          "name": "GeckoLib 4",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1038979,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/geckolib-forge-1.20.1-4.8.2.jar",
+            "MD5": "d1ff73da16b6fc163d6c5ed3d9734dde"
+          }
+        },
+        {
+          "id": "com.github.alexthe666:iceandfire:2.1.13-1.20.1@jar",
+          "name": "Ice and Fire",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 21854126,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/iceandfire-2.1.13-1.20.1-beta-5.jar",
+            "MD5": "cadbfab46fa1b02f9a9b09fa5cf86803"
+          }
+        },
+        {
+          "id": "org.anti_ad.mc.ipnext:inventoryprofilesnext:1.10.19@jar",
+          "name": "Inventory Profiles Next",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1456863,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/InventoryProfilesNext-forge-1.20-1.10.19.jar",
+            "MD5": "eafdba0041b0811e9e7afda28a5927fe"
+          }
+        },
+        {
+          "id": "io.redspace.ironsspellbooks:irons_spellbooks:1.20.1-3.4.0.11@jar",
+          "name": "Iron's Spells 'n Spellbooks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8784756,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/irons_spellbooks-1.20.1-3.4.0.11.jar",
+            "MD5": "772d419fad82558b4c2ed1753c5e07aa"
+          }
+        },
+        {
+          "id": "snownee.jade:jade:11.13.2+forge@jar",
+          "name": "Jade",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 552486,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/Jade-1.20.1-Forge-11.13.2.jar",
+            "MD5": "7c349670f77fd64b9e9854c4a8d82fcc"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:15.20.0.127@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1409495,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/jei-1.20.1-forge-15.20.0.127.jar",
+            "MD5": "eb190c5d3415e244e024828722287ed0"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:5.10.3@jar",
+          "name": "Journeymap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7160405,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/journeymap-1.20.1-5.10.3-forge.jar",
+            "MD5": "2181bd6b7161f06726560b9382235611"
+          }
+        },
+        {
+          "id": "de.keksuccino:justzoom:2.1.1@jar",
+          "name": "Just Zoom",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 204574,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/justzoom_forge_2.1.1_MC_1.20.1.jar",
+            "MD5": "758fe904b5a22ce7b2df824c1a064858"
+          }
+        },
+        {
+          "id": "de.keksuccino:konkrete:1.8.0@jar",
+          "name": "Konkrete",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 625185,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+            "MD5": "d69107c593e361e1b7b96733250bd098"
+          }
+        },
+        {
+          "id": "com.hyfata.najoan.koreanpatch.client:koreanpatch:1.9.0+mc1.20.1@jar",
+          "name": "Korean Patch",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 315488,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/koreanpatch-forge-1.9.0+mc1.20.1.jar",
+            "MD5": "dc6a73dcbec683185bd2e3c87ad8fb17"
+          }
+        },
+        {
+          "id": "generated.forgemod:kotlinforforge:4.12.0-all@jar",
+          "name": "Kotlinforforge",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7442998,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/kotlinforforge-4.12.0-all.jar",
+            "MD5": "d6a40dede74edbe646b34a1bafd53b4d"
+          }
+        },
+        {
+          "id": "org.anti_ad.mc:libipn:4.0.2@jar",
+          "name": "LibIPN",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 693301,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/libIPN-forge-1.20-4.0.2.jar",
+            "MD5": "ef3a86f4867dba031dd6adef7e45d396"
+          }
+        },
+        {
+          "id": "com.jtorleonstudios:libraryferret:4.0.0@jar",
+          "name": "Library ferret",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 244410,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/libraryferret-forge-1.20.1-4.0.0.jar",
+            "MD5": "2fc42e82c5ab39bdd9ab80de2c8201b3"
+          }
+        },
+        {
+          "id": "noobanidus.mods:lootr:0.7.35.94@jar",
+          "name": "Lootr",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 463485,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/lootr-forge-1.20-0.7.35.94.jar",
+            "MD5": "56dd6966de4ba641cf00ef5b9ce8d2d7"
+          }
+        },
+        {
+          "id": "com.github.darkpred:morehitboxes:1.9.2@jar",
+          "name": "Morehitboxes",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 294405,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/morehitboxes-forge-1.20.1-1.9.2.jar",
+            "MD5": "6e78456b9c5dc3ac1592392dc64a6868"
+          }
+        },
+        {
+          "id": "yalter.mousetweaks:mousetweaks:2.25.1@jar",
+          "name": "Mouse Tweaks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 76237,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+            "MD5": "ce4b5bbb9ef6a7905c458ab599ef4cb2"
+          }
+        },
+        {
+          "id": "vazkii.neat:neat:1.20.1-41-FORGE@jar",
+          "name": "Neat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 30595,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/Neat-1.20.1-41-FORGE.jar",
+            "MD5": "506cced5f0ddd6104de4d9a05f03a3c3"
+          }
+        },
+        {
+          "id": "com.samgj15:nightlights:1.1@jar",
+          "name": "Night Lights",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 377881,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/nightlights-1.20.1-1.1.jar",
+            "MD5": "ef8bd4be30a00b9b9c6a9280886d5938"
+          }
+        },
+        {
+          "id": "net.coderbot.iris:oculus:1.6.4@jar",
+          "name": "Oculus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2849391,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/oculus-mc1.20-1.6.4.jar",
+            "MD5": "5a5931227b842d89f2ace93625b22739"
+          }
+        },
+        {
+          "id": "dev.corgitaco:ohthetreesyoullgrow:1.4.2@jar",
+          "name": "Oh The Trees You'll Grow",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 140928,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/Oh-The-Trees-Youll-Grow-forge-1.20.1-1.4.2.jar",
+            "MD5": "48c0ad8fdaa8a05369e2fb959d4b9966"
+          }
+        },
+        {
+          "id": "dev.kosmx.playeranim:playeranimator:1.0.2-rc1+1.20@jar",
+          "name": "Player Animator",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 181437,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/player-animation-lib-forge-1.0.2-rc1+1.20.jar",
+            "MD5": "46f8554181d4d240075ea4919d01fd01"
+          }
+        },
+        {
+          "id": "fuzs.puzzleslib.impl:puzzleslib:8.1.33@jar",
+          "name": "Puzzles Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1342987,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
+            "MD5": "19f23e3040eaadc7c30ae38f5a3dec68"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.sodium.client:rubidium:0.6.5@jar",
+          "name": "Rubidium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 605877,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/rubidium-0.6.5.jar",
+            "MD5": "a452efa401ac9ec14d7232243ee4f3fd"
+          }
+        },
+        {
+          "id": "net.p3pp3rf1y:sophisticatedbackpacks:3.24.23.1529@jar",
+          "name": "Sophisticated Backpacks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 983560,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/sophisticatedbackpacks-1.20.1-3.24.23.1529.jar",
+            "MD5": "6b0e1d5af13159ca9c306e10b4abc416"
+          }
+        },
+        {
+          "id": "net.p3pp3rf1y:sophisticatedcore:1.3.5.1505@jar",
+          "name": "Sophisticated Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1418774,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/sophisticatedcore-1.20.1-1.3.5.1505.jar",
+            "MD5": "bb33c4db170475fa2bd52c9e7f25420a"
+          }
+        },
+        {
+          "id": "com.oblivioussp:spartanweaponry:3.2.1@jar",
+          "name": "Spartan Weaponry",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2834011,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/SpartanWeaponry-1.20.1-forge-3.2.1-all.jar",
+            "MD5": "d52d9b73cae7d0e91c2b48faccb90e10"
+          }
+        },
+        {
+          "id": "terrablender.core:terrablender:3.0.1.10@jar",
+          "name": "TerraBlender",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 107532,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/TerraBlender-forge-1.20.1-3.0.1.10.jar",
+            "MD5": "9d8e305b95ae5a8f7b446d6346324267"
+          }
+        },
+        {
+          "id": "ru.xishnikus.thedawnera:dawnera:0.642@jar",
+          "name": "TheDawnEra",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6302911,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/thedawnera-1.20.1-0.642.jar",
+            "MD5": "30f201bf177b2d555fdcf4b5aab6ae49"
+          }
+        },
+        {
+          "id": "de.maxhenkel.voicechat:voicechat:1.20.1-2.6.7@jar",
+          "name": "Simple Voice Chat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4890616,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/voicechat-forge-1.20.1-2.6.7.jar",
+            "MD5": "bff3b95a134aa4b0efd4773bad755085"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:yungsapi:1.20-Forge-4.0.6@jar",
+          "name": "YUNG's API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 370524,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/YungsApi-1.20-Forge-4.0.6.jar",
+            "MD5": "fe79f43dba8edbb8ede99f4e358e5b0c"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterdungeons:1.20-Forge-4.0.4@jar",
+          "name": "YUNG's Better Dungeons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 792381,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/YungsBetterDungeons-1.20-Forge-4.0.4.jar",
+            "MD5": "2de2f1be8f528ad139003bb5c73d49f3"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:bettermineshafts:1.20-Forge-4.0.4@jar",
+          "name": "YUNG's Better Mineshafts",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 492998,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/YungsBetterMineshafts-1.20-Forge-4.0.4.jar",
+            "MD5": "fe8d205c98cb02840d46646fb7cf5ab8"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterstrongholds:1.20-Forge-4.0.3@jar",
+          "name": "YUNG's Better Strongholds",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 473564,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/YungsBetterStrongholds-1.20-Forge-4.0.3.jar",
+            "MD5": "8c00ed5d2bab232040a1d4d0ef746ae6"
+          }
+        },
+        {
+          "id": "Bontiful_Crops_v2.2 [1.19-1.21.9].zip",
+          "name": "Bontiful_Crops_v2.2 [1.19-1.21.9].zip",
+          "type": "File",
+          "artifact": {
+            "size": 174357,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/files/resourcepacks/Bontiful_Crops_v2.2%20[1.19-1.21.9].zip",
+            "MD5": "d63c958036d37fd2f75fb2c7a3e254fe",
+            "path": "resourcepacks/Bontiful_Crops_v2.2 [1.19-1.21.9].zip"
+          }
+        },
+        {
+          "id": "dawnera_korean_pack.zip",
+          "name": "dawnera_korean_pack.zip",
+          "type": "File",
+          "artifact": {
+            "size": 4325,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/files/resourcepacks/dawnera_korean_pack.zip",
+            "MD5": "d46e141eeb26be3c692e6a53281fee5f",
+            "path": "resourcepacks/dawnera_korean_pack.zip"
+          }
+        },
+        {
+          "id": "Spartan Weaponry 한글번역팩.zip",
+          "name": "Spartan Weaponry 한글번역팩.zip",
+          "type": "File",
+          "artifact": {
+            "size": 27172,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/files/resourcepacks/Spartan%20Weaponry%20%ED%95%9C%EA%B8%80%EB%B2%88%EC%97%AD%ED%8C%A9.zip",
+            "MD5": "f035f77e5f05e7554718716093a3937d",
+            "path": "resourcepacks/Spartan Weaponry 한글번역팩.zip"
+          }
+        },
+        {
+          "id": "BSL+Standard+v6.1.1.zip",
+          "name": "BSL+Standard+v6.1.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 403387,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/files/shaderpacks/BSL+Standard+v6.1.1.zip",
+            "MD5": "0bd823368a1f0ce2d01baeec14fa0da5",
+            "path": "shaderpacks/BSL+Standard+v6.1.1.zip"
+          }
+        },
+        {
+          "id": "BSL_v8.2.04.zip",
+          "name": "BSL_v8.2.04.zip",
+          "type": "File",
+          "artifact": {
+            "size": 932543,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/files/shaderpacks/BSL_v8.2.04.zip",
+            "MD5": "9b7be3e5521d70f9ffa0aa19d8b484cc",
+            "path": "shaderpacks/BSL_v8.2.04.zip"
+          }
+        },
+        {
+          "id": "ComplementaryShaders_v4.4.zip",
+          "name": "ComplementaryShaders_v4.4.zip",
+          "type": "File",
+          "artifact": {
+            "size": 3461518,
+            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/files/shaderpacks/ComplementaryShaders_v4.4.zip",
+            "MD5": "e0c2c4b151699beaf72a1829be44eacd",
+            "path": "shaderpacks/ComplementaryShaders_v4.4.zip"
+          }
+        }
+      ]
+    }
+  ]
+}
