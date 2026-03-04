@@ -588,16 +588,6 @@
           }
         },
         {
-          "id": "de.maxhenkel:corpse:1.20.1-1.0.23@jar",
-          "name": "Corpse",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 245644,
-            "url": "https://github.com/mchdistro/Dinosaur/raw/main/servers/Dinosaur-1.20.1/forgemods/required/corpse-forge-1.20.1-1.0.23.jar",
-            "MD5": "a486f676f5e47e5846e31cb66cb5c16d"
-          }
-        },
-        {
           "id": "top.theillusivec4:curios:5.14.1+1.20.1@jar",
           "name": "Curios API",
           "type": "ForgeMod",
